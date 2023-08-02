@@ -10,10 +10,11 @@
     .logo{
         display: block;
         padding :8px 0;
+        
         img{
             display: block;
             margin: 8px auto;
-            width: 24px;
+            width: 40px;
             height: auto;
 
             &.sub-logo{
@@ -86,9 +87,33 @@
                 svg{
                     color: #ffd700
                 }
-                ;
             }
     }
-    
+    ul{
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+
+        li{
+            a{
+                padding : 7px 0;
+                display: block;
+                font-size: 15px;
+                line-height: 16px;    
+
+                &:hover {
+                    svg{
+                        color: #ffd700;
+                    }
+                    
+                }
+            }
+        }
+    }
 }
 
