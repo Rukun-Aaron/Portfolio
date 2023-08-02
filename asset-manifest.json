@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Rukun-Aaron/Portfolio/static/css/main.9fadf94f.css",
-    "main.js": "/Rukun-Aaron/Portfolio/static/js/main.5f1fbbbe.js",
-    "static/js/787.a2cb61a6.chunk.js": "/Rukun-Aaron/Portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo-transparent.png": "/Rukun-Aaron/Portfolio/static/media/logo-transparent.8962e2f54bdc7b5eb1ea.png",
-    "static/media/helvetica-neu.ttf": "/Rukun-Aaron/Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff": "/Rukun-Aaron/Portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
-    "static/media/LaBelleAurore.woff2": "/Rukun-Aaron/Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff": "/Rukun-Aaron/Portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
-    "static/media/CoolveticaRg-Regular.woff2": "/Rukun-Aaron/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/Rukun-Aaron/Portfolio/index.html",
-    "main.9fadf94f.css.map": "/Rukun-Aaron/Portfolio/static/css/main.9fadf94f.css.map",
-    "main.5f1fbbbe.js.map": "/Rukun-Aaron/Portfolio/static/js/main.5f1fbbbe.js.map",
-    "787.a2cb61a6.chunk.js.map": "/Rukun-Aaron/Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/amodhakal/portfolio/static/css/main.d739256b.css",
+    "main.js": "/amodhakal/portfolio/static/js/main.c2f972c8.js",
+    "static/js/787.a2cb61a6.chunk.js": "/amodhakal/portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/logo-transparent.png": "/amodhakal/portfolio/static/media/logo-transparent.8962e2f54bdc7b5eb1ea.png",
+    "static/media/helvetica-neu.ttf": "/amodhakal/portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/amodhakal/portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/amodhakal/portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/amodhakal/portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/amodhakal/portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/amodhakal/portfolio/index.html",
+    "main.d739256b.css.map": "/amodhakal/portfolio/static/css/main.d739256b.css.map",
+    "main.c2f972c8.js.map": "/amodhakal/portfolio/static/js/main.c2f972c8.js.map",
+    "787.a2cb61a6.chunk.js.map": "/amodhakal/portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fadf94f.css",
-    "static/js/main.5f1fbbbe.js"
+    "static/css/main.d739256b.css",
+    "static/js/main.c2f972c8.js"
   ]
 }
