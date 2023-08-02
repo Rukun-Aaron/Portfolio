@@ -1,6 +1,7 @@
 {
   "homepage": "https://Rukun-Aaron.github.io/Portfolio", 
   "name": "react-portfolio",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
