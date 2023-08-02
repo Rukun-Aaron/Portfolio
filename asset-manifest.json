@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/amodhakal/Portfolio/static/css/main.c0ea4a9e.css",
-    "main.js": "/amodhakal/Portfolio/static/js/main.053f1501.js",
-    "static/js/787.a2cb61a6.chunk.js": "/amodhakal/Portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo-transparent.png": "/amodhakal/Portfolio/static/media/logo-transparent.8962e2f54bdc7b5eb1ea.png",
-    "static/media/helvetica-neu.ttf": "/amodhakal/Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff": "/amodhakal/Portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
-    "static/media/LaBelleAurore.woff2": "/amodhakal/Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff": "/amodhakal/Portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
-    "static/media/CoolveticaRg-Regular.woff2": "/amodhakal/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/amodhakal/Portfolio/index.html",
-    "main.c0ea4a9e.css.map": "/amodhakal/Portfolio/static/css/main.c0ea4a9e.css.map",
-    "main.053f1501.js.map": "/amodhakal/Portfolio/static/js/main.053f1501.js.map",
-    "787.a2cb61a6.chunk.js.map": "/amodhakal/Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/Rukun-Aaron/Portfolio/static/css/main.9fadf94f.css",
+    "main.js": "/Rukun-Aaron/Portfolio/static/js/main.1ca550f1.js",
+    "static/js/787.a2cb61a6.chunk.js": "/Rukun-Aaron/Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/logo-transparent.png": "/Rukun-Aaron/Portfolio/static/media/logo-transparent.8962e2f54bdc7b5eb1ea.png",
+    "static/media/helvetica-neu.ttf": "/Rukun-Aaron/Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/Rukun-Aaron/Portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/Rukun-Aaron/Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/Rukun-Aaron/Portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/Rukun-Aaron/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Rukun-Aaron/Portfolio/index.html",
+    "main.9fadf94f.css.map": "/Rukun-Aaron/Portfolio/static/css/main.9fadf94f.css.map",
+    "main.1ca550f1.js.map": "/Rukun-Aaron/Portfolio/static/js/main.1ca550f1.js.map",
+    "787.a2cb61a6.chunk.js.map": "/Rukun-Aaron/Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0ea4a9e.css",
-    "static/js/main.053f1501.js"
+    "static/css/main.9fadf94f.css",
+    "static/js/main.1ca550f1.js"
   ]
 }
