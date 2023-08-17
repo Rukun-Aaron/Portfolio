@@ -13,7 +13,11 @@ const Home =() => {
                 Computer Science Graduate
                 </h1>
                 <h2>Backend Developer/ Comfortable w JavaScript/ Machine Learning expert </h2>
-                <Link to='/contact' className="flat-button">CONTACT ME</Link>
+                <div id="defnic" class="gps-button-wrapper"> 
+                    <Link to='/contact' className="flat-button">CONTACT ME</Link>
+                
+                </div>
+                
                 </div>
             </div>
             </>

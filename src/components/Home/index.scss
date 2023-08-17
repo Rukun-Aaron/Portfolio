@@ -46,4 +46,67 @@
             animation-delay: 1.4s;
           }
     }
+    h2{
+      color : #8d8d8d;
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 11px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.7s backwards;
+
+    }
+    .flat-button{
+      background-color: rgba(255,255,255,0);
+    border: 2px solid #106fe7;
+    border-radius: 100px;
+    color: #106fe7;
+    display: inline-block;
+    font: normal normal 18px / 18px "Palanquin Dark", Helvetica, Arial, Verdana, sans-serif;
+    overflow: hidden;
+    padding: 8px 25px 10px;
+    position: relative;
+    text-decoration: none;
+    transition: all .75s ease-in-out; 
+    z-index: 1;
+    }
+    #defnic.gps-button-wrapper a.gps-button:hover, 
+#defnic.gps-button-wrapper a.gps-button:focus {
+    color: #fff; 
+    transition: all .75s ease-in-out; }
+
+#defnic.gps-button-wrapper a.flat-button::before {
+    background: linear-gradient(#106fe7, #106fe7) -100px 0 no-repeat;
+    content: "";
+    display: inline-block;
+    
+    height: 10em;
+    width: 200%;
+
+    opacity: 0;
+    
+    position: absolute;
+    top: 0;
+    left: -30%;
+
+    -webkit-transform: skewX(-30deg) translateX(-80%);
+        -ms-transform: skewX(-30deg) translateX(-80%);
+            transform: skewX(-30deg) translateX(-80%); 
+    
+    transition: opacity .75s ease-in-out, -webkit-transform 0s .85s;
+    transition: opacity .75s ease-in-out, -ms-transform 0s .85s;
+    transition: opacity .75s ease-in-out, transform 0s .85s; 
+
+    z-index: -1; }
+#defnic.gps-button-wrapper a.flat-button:hover::before, 
+#defnic.gps-button-wrapper a.flat-button:focus::before {
+    opacity: 1;
+    
+    -webkit-transform: skewX(-30deg) translateX(0);
+        -ms-transform: skewX(-30deg) translateX(0);
+            transform: skewX(-30deg) translateX(0); 
+    
+    transition: -webkit-transform 1s ease-in-out;
+    transition: -ms-transform 1s ease-in-out;
+    transition: transform 1s ease-in-out; }
 }
