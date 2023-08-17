@@ -128,8 +128,10 @@
   
   display: grid;
   place-items: center; */
-  display: flex;
-  justify-content: flex-end;
-  transform : translate(-20%,50%)
+  width: 20%;
+  float:right;
+  // display: flex;
+  // justify-content: flex-end;
+  transform : translate(-70%,50%)
   // right: 0;
 }

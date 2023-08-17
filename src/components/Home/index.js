@@ -49,7 +49,7 @@ const Home =() => {
                 </div>
                 
                 </div>
-                
+                <YourComponent></YourComponent> 
             </div>
             
     )
