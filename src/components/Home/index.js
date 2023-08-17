@@ -16,7 +16,7 @@ const Home =() => {
   }, [])
     return (
         
-
+        
         <div className="container home-page">
             
             <div className="text-zone">
@@ -49,7 +49,7 @@ const Home =() => {
                 </div>
                 
                 </div>
-                <YourComponent></YourComponent>
+                
             </div>
             
     )
