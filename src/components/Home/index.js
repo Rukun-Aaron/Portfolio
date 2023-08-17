@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import AnimatedLetters  from '../AnimatedLetters';
 import './index.scss';
+import YourComponent from '../Pics';
 const Home =() => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['A','a', 'r', 'o', 'n']
@@ -48,6 +49,7 @@ const Home =() => {
                 </div>
                 
                 </div>
+                <YourComponent></YourComponent>
             </div>
             
     )
