@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+import React from 'react';
 import './index.css';
 
 const YourComponent = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  // const [activeIndex, setActiveIndex] = useState(0);
 
-  const groups = document.getElementsByClassName("card-group");
+  // const groups = document.getElementsByClassName("card-group");
 
   // const handleLoveClick = () => {
   //   const nextIndex = activeIndex + 1 <= groups.length - 1 ? activeIndex + 1 : 0;
