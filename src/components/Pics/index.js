@@ -1,7 +1,7 @@
 // import  { useState } from 'react';
 import React from 'react';
 import './index.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 const YourComponent = () => {
   // const [activeIndex, setActiveIndex] = useState(0);
 
