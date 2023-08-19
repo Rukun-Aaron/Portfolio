@@ -7,8 +7,15 @@ import YourComponent from '../Pics';
 const Home =() => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['A','a', 'r', 'o', 'n']
-    const jobArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e', ' ', 'G', 'r', 'a', 'd', 'u', 'a', 't', 'e']
-    
+    const jobArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e']
+    const graduateArray =['G', 'r', 'a', 'd', 'u', 'a', 't', 'e']
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    const groups = document.getElementsByClassName("card-group");
+    const handleHateClick = () => {
+        const nextIndex = activeIndex - 1 >= 0 ? activeIndex - 1 : groups.length - 1;
+        setActiveIndex(nextIndex);
+      };
     useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
@@ -39,6 +46,13 @@ const Home =() => {
                     idx={20}
                     
                     />
+                <br/>
+                <AnimatedLetters letterClass={letterClass}
+                    strArray={graduateArray}
+                    idx={25}
+                    
+                    
+                />
                     
                 {/* Computer Science Graduate */}
                 </h1>
