@@ -2,6 +2,7 @@ import LogoSubtitle from '../../assets/images/logo-sub-transparent.png';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import AnimatedLetters  from '../AnimatedLetters';
+import Waves from '../Waves';
 import './index.scss';
 import YourComponent from '../Pics';
 const Home =() => {
@@ -64,7 +65,9 @@ const Home =() => {
                 
                 </div>
                 <YourComponent></YourComponent> 
+                <Waves></Waves>
             </div>
+            
             
     )
 }
