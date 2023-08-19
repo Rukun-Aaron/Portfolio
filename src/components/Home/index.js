@@ -13,10 +13,10 @@ const Home =() => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const groups = document.getElementsByClassName("card-group");
-    const handleHateClick = () => {
-        const nextIndex = activeIndex - 1 >= 0 ? activeIndex - 1 : groups.length - 1;
-        setActiveIndex(nextIndex);
-      };
+    // const handleHateClick = () => {
+    //     const nextIndex = activeIndex - 1 >= 0 ? activeIndex - 1 : groups.length - 1;
+    //     setActiveIndex(nextIndex);
+    //   };
     useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')

@@ -3,9 +3,9 @@ import React from 'react';
 import './index.css';
 import { Link } from 'react-router-dom';
 const YourComponent = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  // const [activeIndex, setActiveIndex] = useState(0);
 
-  const groups = document.getElementsByClassName("card-group");
+  // const groups = document.getElementsByClassName("card-group");
 
   // const handleLoveClick = () => {
   //   const nextIndex = activeIndex + 1 <= groups.length - 1 ? activeIndex + 1 : 0;
@@ -16,12 +16,12 @@ const YourComponent = () => {
   //   const nextIndex = activeIndex - 1 >= 0 ? activeIndex - 1 : groups.length - 1;
   //   setActiveIndex(nextIndex);
   // };
-  const handleHateClick = () => {
+  // const handleHateClick = () => {
     // This is where you would define what should happen when the button is clicked.
     // You can put your logic or function calls here.
     // For example:
-    console.log("Hate button clicked");
-  };
+    // console.log("Hate button clicked");
+  // };
   return (
     <div class="test"> 
 
