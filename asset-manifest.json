@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c64ec19.css",
+    "main.css": "/static/css/main.9b32c935.css",
     "main.js": "/static/js/main.db6434de.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -9,12 +9,12 @@
     "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.2c64ec19.css.map": "/static/css/main.2c64ec19.css.map",
+    "main.9b32c935.css.map": "/static/css/main.9b32c935.css.map",
     "main.db6434de.js.map": "/static/js/main.db6434de.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c64ec19.css",
+    "static/css/main.9b32c935.css",
     "static/js/main.db6434de.js"
   ]
 }
