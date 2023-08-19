@@ -106,11 +106,11 @@ const YourComponent = () => {
       </div>
     </div>
   </div>
-  <div class="card-swiper-buttons">
+  {/* <div class="card-swiper-buttons">
     <div id="defnic" class="gps-button-wrapper hmm"> 
                     <Link to='/contact' className="flat-button">CONTACT ME</Link>
                 
-                </div>
+                </div> */}
     {/* <button id="hate-button" onClick={handleHateClick}>
       <i class="fa-solid fa-x"></i>
     </button> */}
@@ -120,7 +120,7 @@ const YourComponent = () => {
   </div>
 </div>
 
-</div>
+// </div>
 
     );
 
