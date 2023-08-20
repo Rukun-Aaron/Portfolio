@@ -91,7 +91,7 @@
     transition: all .75s ease-in-out; }
 
 #defnic.gps-button-wrapper a.flat-button::before {
-    background: linear-gradient(var(--yellow), var(--yellow)) -100px 0 no-repeat;
+    background: linear-gradient(#ffd700,#ffd700) -100px 0 no-repeat;
     content: "";
     display: inline-block;
     height: 10em;
