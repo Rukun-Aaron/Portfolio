@@ -10,4 +10,15 @@ body {
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  margin:0;
+
+}
+main{
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+  width:100vw;
+  margin: 0;
 }

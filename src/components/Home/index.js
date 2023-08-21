@@ -5,6 +5,7 @@ import AnimatedLetters  from '../AnimatedLetters';
 import Waves from '../Waves';
 import './index.scss';
 import YourComponent from '../Pics';
+import CurtainButton from '../CurtainButton';
 const Home =() => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['A','a', 'r', 'o', 'n']
@@ -65,6 +66,7 @@ const Home =() => {
                 
                 </div>
                 <YourComponent></YourComponent> 
+                <CurtainButton></CurtainButton>
                 <Waves></Waves>
             </div>
             
