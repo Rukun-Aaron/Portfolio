@@ -24,12 +24,35 @@
     transform: translateX(-50%) scale(0.9);
   }
 
-#nav-toggle > i{
+#nav-toggle > svg{
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0.9);
   color: rgb(246, 231, 224);
   font-size:1.75rem;
+  opacity: 0;
+  transition: transform, opacity;
+  transition-timing-function: ease;
+  transition-duration: 400ms;
 }
   
+// #nav-toggle:hover > svg {
+//   opacity: 1;
+//   transform: translate(-50%, -50%) scale(1);
+// }
+
+// #nav-toggle[data-nav="true"] > svg.fa-xmark{
+//   opacity: 0;
+// }
+
+#nav-toggle:not([data-nav="true"]):hover > svg.fa-mug-saucer {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#nav-toggle[data-nav="true"] > svg.fa-xmark{
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+

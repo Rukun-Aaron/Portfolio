@@ -2,6 +2,7 @@
   --yellow: var(--yellow);
 }
 .home-page {
+  
     .text-zone {
         position: absolute;
         left: 10%;
@@ -142,42 +143,14 @@
 }
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
-// body {
-//   margin:0;
-// }
 
-// h1 {
-//   font-family: 'Lato', sans-serif;
-//   font-weight:300;
-//   letter-spacing: 2px;
-//   font-size:48px;
-// }
-// p {
-//   font-family: 'Lato', sans-serif;
-//   letter-spacing: 1px;
-//   font-size:14px;
-//   color: #333333;
-// }
-
-// .header {
-//   position:relative;
-//   text-align:center;
-//   background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
-//   color:white;
-// }
-// .logo {
-//   width:50px;
-//   fill:white;
-//   padding-right:15px;
-//   display:inline-block;
-//   vertical-align: middle;
-// }
 .wave-container{
   
   position: absolute; 
-  bottom: 0px; 
+  bottom: 0; 
   width: 100%; 
   height: 80px; 
+
 }
 .inner-header {
   height:65vh;
@@ -194,9 +167,11 @@
 }
 
 .waves {
-  position:relative;
+  position:absolute;
   width: 100%;
-  height:15vh;
+  height:10vh;
+  bottom:0;
+  // translate: transform(0%,-30%);
   margin-bottom:-7px; /*Fix for safari gap*/
   min-height:100px;
   max-height:150px;
