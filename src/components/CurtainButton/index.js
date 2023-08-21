@@ -7,14 +7,10 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import {faXmark} from '@fortawesome/free-solid-svg-icons';
 // import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
-import { useState } from 'react';
+// import { useState } from 'react';
 
-const CurtainButton = () => {
-    const [isNavOpen, setIsNavOpen] = useState(false);
+const CurtainButton = ({toggleNav, isNavOpen}) => {
 
-    const toggleNav = () => {
-      setIsNavOpen(prevState => !prevState);
-    };
     return (
       // <div className="curtain-button" data-nav={isNavOpen}>
         <button

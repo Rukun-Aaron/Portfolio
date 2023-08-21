@@ -11,22 +11,31 @@ const Home =() => {
     const nameArray = ['A','a', 'r', 'o', 'n']
     const jobArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e']
     const graduateArray =['G', 'r', 'a', 'd', 'u', 'a', 't', 'e']
-    // const [activeIndex, setActiveIndex] = useState(0);
 
-    // const groups = document.getElementsByClassName("card-group");
-    // const handleHateClick = () => {
-    //     const nextIndex = activeIndex - 1 >= 0 ? activeIndex - 1 : groups.length - 1;
-    //     setActiveIndex(nextIndex);
-    //   };
     useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
     },6000)
   }, [])
+    const [isNavOpen, setIsNavOpen] = useState(false);
+    const [translationAmount, setTranslationAmount] = useState('0%'); // Initial value
+
+    const toggleNav = () => {
+            // console.log('toggleNav');
+
+        setIsNavOpen(prevState => !prevState);
+        setTranslationAmount(prevAmount => (prevAmount === '0%' ? '40%' : '0%'));
+
+        };
+        
     return (
         
         
-        <div className="container home-page">
+        <div className="container home-page" style={{
+            transform: `translateY(-${translationAmount})`,
+            transition: 'transform 500ms cubic-bezier(.13,.53,.38,.97)',
+             // Smooth animation
+          }}>
             
             <div className="text-zone">
                 <h1>
@@ -51,12 +60,10 @@ const Home =() => {
                 <br/>
                 <AnimatedLetters letterClass={letterClass}
                     strArray={graduateArray}
-                    idx={25}
+                    idx={29}
                     
                     
                 />
-                    
-                {/* Computer Science Graduate */}
                 </h1>
                 <h2>Backend Developer/ Comfortable w JavaScript/ Machine Learning expert </h2>
                 <div id="defnic" class="gps-button-wrapper"> 
@@ -65,9 +72,9 @@ const Home =() => {
                 </div>
                 
                 </div>
-                <YourComponent></YourComponent> 
-                <CurtainButton></CurtainButton>
-                <Waves></Waves>
+                <YourComponent ></YourComponent> 
+                <CurtainButton  isNavOpen={isNavOpen} toggleNav={toggleNav}></CurtainButton>
+                <Waves isNavOpen={isNavOpen}></Waves>
             </div>
             
             

@@ -2,7 +2,11 @@ import React  from "react";
 import './index.css';
 
 
-const Waves = () => {
+const Waves = ({isNavOpen }) => {
+  const style = {
+    opacity: isNavOpen ? 0 : 1,
+    transition: 'opacity 0.5s ease-in-out',
+  };
     return (
        
       <div class="wave-container">
@@ -13,6 +17,7 @@ const Waves = () => {
           viewBox="0 24 150 28"
           preserveAspectRatio="none"
           shapeRendering="auto"
+          style={style}
         >
           <defs>
             <path
