@@ -2,6 +2,7 @@ import LogoSubtitle from '../../assets/images/logo-sub-transparent.png';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import AnimatedLetters  from '../AnimatedLetters';
+import Loader from 'react-loaders';
 import Waves from '../Waves';
 import './index.scss';
 import YourComponent from '../Pics';
@@ -30,7 +31,7 @@ const Home =() => {
         
     return (
         
-        
+        <>
         <div className="container home-page" style={{
             transform: `translateY(-${translationAmount})`,
             transition: 'transform 500ms cubic-bezier(.13,.53,.38,.97)',
@@ -75,8 +76,10 @@ const Home =() => {
                 <YourComponent ></YourComponent> 
                 <CurtainButton  isNavOpen={isNavOpen} toggleNav={toggleNav}></CurtainButton>
                 <Waves isNavOpen={isNavOpen}></Waves>
-            </div>
             
+        </div>
+        <Loader type="pacman"/> 
+        </>
             
     )
 }
