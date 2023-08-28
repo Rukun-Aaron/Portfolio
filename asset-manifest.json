@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.75d36224.css",
+    "main.css": "/static/css/main.00e182b3.css",
     "main.js": "/static/js/main.65cf2a1b.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -14,12 +14,12 @@
     "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.75d36224.css.map": "/static/css/main.75d36224.css.map",
+    "main.00e182b3.css.map": "/static/css/main.00e182b3.css.map",
     "main.65cf2a1b.js.map": "/static/js/main.65cf2a1b.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75d36224.css",
+    "static/css/main.00e182b3.css",
     "static/js/main.65cf2a1b.js"
   ]
 }
