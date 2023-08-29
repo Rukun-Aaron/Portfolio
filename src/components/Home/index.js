@@ -8,11 +8,11 @@ import './index.scss';
 import YourComponent from '../Pics';
 import CurtainButton from '../CurtainButton';
 const Home =() => {
-    const [letterClass, setLetterClass] = useState('text-animate')
+
     const nameArray = ['A','a', 'r', 'o', 'n']
     const jobArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e']
     const graduateArray =['G', 'r', 'a', 'd', 'u', 'a', 't', 'e']
-
+    const [letterClass, setLetterClass] = useState('text-animate')
     useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
