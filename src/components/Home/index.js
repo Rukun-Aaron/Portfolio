@@ -74,8 +74,10 @@ const Home =() => {
                 
                 </div>
                 <YourComponent ></YourComponent> 
-                <CurtainButton  isNavOpen={isNavOpen} toggleNav={toggleNav}></CurtainButton>
+                
                 <Waves isNavOpen={isNavOpen}></Waves>
+                <CurtainButton  isNavOpen={isNavOpen} toggleNav={toggleNav}></CurtainButton>
+
             
         </div>
         <Loader type="pacman"/> 
