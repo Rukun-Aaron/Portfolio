@@ -62,13 +62,13 @@
   font-family: "Rubik", sans-serif;
 }
 nav {
-  height: 50vh;
+  height: 30vh;
   width: 100%;
   position: absolute;
   left: 0px;
   bottom: 0px;
-  z-index: 1;
-  overflow: hidden;
+  z-index: 0;
+  // overflow: hidden;
 }
 
 #nav-links {  
