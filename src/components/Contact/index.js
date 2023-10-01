@@ -3,6 +3,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import React, { useState, useEffect, useRef } from 'react'
 import emailjs from '@emailjs/browser';
+import { hover } from '@testing-library/user-event/dist/hover';
 const Contact = () =>{
     const contactText = ["C", "o","n","t","a","c","t"," ","M","e"]
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -39,10 +40,9 @@ const Contact = () =>{
                         />
                     </h1>
                     <p>
-                    
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+            Hello, please don't hesitate to reach out to me if you have any questions or just want to say hi! I'll try my best to get back to you!                     
             </p>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+            <p>Email me at <a href="mailto:rukun.aaron@gmail.com" target='blank'>rukun.aaron@gmail.com</a> or fill out the form below.
 
             </p>
            
@@ -62,7 +62,7 @@ const Contact = () =>{
                             <textarea placeholder='Message' name="message" required></textarea>
                           </li>
                           <li>
-                            <input type="submit" value="Send Message" className='flat-button' ></input>
+                            <input type="submit"  value="Send Message" className='flat-button' ></input>
                           </li>
                           
 

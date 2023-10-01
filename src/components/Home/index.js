@@ -6,7 +6,7 @@ import Loader from 'react-loaders';
 import Waves from '../Waves';
 import './index.scss';
 import YourComponent from '../Pics';
-import CurtainButton from '../CurtainButton';
+// import CurtainButton from '../CurtainButton';
 const Home =() => {
 
     const nameArray = ['A','a', 'r', 'o', 'n']
@@ -18,22 +18,22 @@ const Home =() => {
       setLetterClass('text-animate-hover')
     },6000)
   }, [])
-    const [isNavOpen, setIsNavOpen] = useState(false);
-    const [translationAmount, setTranslationAmount] = useState('0%'); // Initial value
+    // const [isNavOpen, setIsNavOpen] = useState(false);
+    // const [translationAmount, setTranslationAmount] = useState('0%'); // Initial value
 
-    const toggleNav = () => {
-            // console.log('toggleNav');
+    // const toggleNav = () => {
+    //         // console.log('toggleNav');
 
-        setIsNavOpen(prevState => !prevState);
-        setTranslationAmount(prevAmount => (prevAmount === '0%' ? '40%' : '0%'));
+    //     setIsNavOpen(prevState => !prevState);
+    //     setTranslationAmount(prevAmount => (prevAmount === '0%' ? '40%' : '0%'));
 
-        };
+    //     };
         
     return (
         
         <>
         <div className="container home-page" style={{
-            transform: `translateY(-${translationAmount})`,
+            // transform: `translateY(-${translationAmount})`,
             transition: 'transform 500ms cubic-bezier(.13,.53,.38,.97)',
              // Smooth animation
           }}>
@@ -74,8 +74,10 @@ const Home =() => {
                 
                 </div>
                 <YourComponent ></YourComponent> 
-                <CurtainButton  isNavOpen={isNavOpen} toggleNav={toggleNav}></CurtainButton>
-                <Waves isNavOpen={isNavOpen}></Waves>
+                <Waves></Waves>
+                {/* <Waves isNavOpen={isNavOpen} ></Waves> */}
+                {/* <CurtainButton  isNavOpen={isNavOpen} toggleNav={toggleNav}></CurtainButton>     */}
+
             
         </div>
         <Loader type="pacman"/> 

@@ -1,10 +1,10 @@
 import React  from "react";
 import './index.css';
 
-
-const Waves = ({isNavOpen }) => {
+const Waves = () => {
+// const Waves = ({isNavOpen }) => {
   const style = {
-    opacity: isNavOpen ? 0 : 1,
+    // opacity: isNavOpen ? 0 : 1,
     transition: 'opacity 500ms cubic-bezier(.15,.71,.63,.52)',
   };
     return (
