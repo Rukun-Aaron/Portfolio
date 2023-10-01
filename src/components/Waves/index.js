@@ -1,7 +1,7 @@
 import React  from "react";
 import './index.css';
 
-const Waves = ({ }) => {
+const Waves = () => {
 // const Waves = ({isNavOpen }) => {
   const style = {
     // opacity: isNavOpen ? 0 : 1,
