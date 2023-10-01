@@ -26,13 +26,28 @@ const About = ()=>{
                 >  </AnimatedLetters>
             </h1>  
             <p>
-                    
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+
+            I'm Rukun Aaron, a software developer based in Auckland, New Zealand. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences. 
             </p>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+            <p>I have a  passion for data analysis and building Machine Learning models to solve problems. 
 
             </p>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p> 
+            <p>I have intern and personal experience in using:
+                <ul>
+                    <li>Python</li>
+                    <li>C# (.NET)</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>TensorFlow</li>
+                    <li>Pytorch</li>
+                    <li>AWS</li>
+                    <li>React</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Tailwind</li>
+                    <li>Git</li>
+                </ul>    
+            </p> 
             </div> 
             
         <div className='stage-cube-cont'>
