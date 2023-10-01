@@ -3,7 +3,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import React, { useState, useEffect, useRef } from 'react'
 import emailjs from '@emailjs/browser';
-import { hover } from '@testing-library/user-event/dist/hover';
+// import { hover } from '@testing-library/user-event/dist/hover';
 const Contact = () =>{
     const contactText = ["C", "o","n","t","a","c","t"," ","M","e"]
     const [letterClass, setLetterClass] = useState('text-animate')
